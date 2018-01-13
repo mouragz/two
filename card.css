@@ -1,0 +1,335 @@
+body {
+    background-color: #F5F5F5;
+}
+
+
+/* navbar */
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    height: 100px;
+}
+
+.glyp-nav {
+    font-size: 30px;
+    color: #0A7B9C;
+    padding-right: 20px;
+}
+
+.nav1 {
+    border-left: 1px solid #C8C6C6;
+    border-right: 1px solid #C8C6C6;
+}
+
+.nav2 {
+    border-right: 1px solid #C8C6C6;
+}
+
+.nav3 {
+    border-left: 1px solid #C8C6C6;
+    margin-right: 19%;
+}
+
+.btn .caret {
+    margin-left: 0;
+    color: #777;
+}
+
+.btn-default {
+    width: 150px;
+    color: #333;
+    background-color: #fff;
+    text-align: left;
+    border-color: #ccc;
+}
+
+.pull-right-modified {
+    float: right!important;
+    margin-top: 8px;
+}
+
+.main {
+    padding-top: 0px !important;
+}
+
+
+/*left */
+
+.one {
+    height: 85px;
+}
+
+.two {
+    margin-top: 14px;
+    padding-left: 25px;
+    white-space: nowrap;
+}
+
+.three,
+.six {
+    margin-top: 22px;
+    padding-left: 30px;
+}
+
+.four {
+    margin-top: 22px;
+    padding-left: 15px;
+}
+
+.five {
+    margin-top: 35px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.clr {
+    color: #9b9b9b;
+}
+
+.clr-1 {
+    font-size: 20px;
+}
+
+
+/* right */
+
+.card {
+    border: solid 1px #e7e7e7;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.activity_text {
+    margin: 15px 15px;
+}
+
+.title {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: 0px;
+}
+
+.list {
+    font-size: 13px;
+    color: #9b9b9b;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.glyp-card {
+    font-size: 30px;
+    color: #129C09;
+    top: 12px;
+}
+
+.hire_text {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0px 0px;
+    font-weight: bold;
+}
+
+.title-active {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* custome */
+
+.nav-tabs {
+    border-bottom: 2px solid #DDD;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border-width: 0;
+}
+
+.nav-tabs>li>a {
+    border: none;
+    color: #666;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover {
+    border: none;
+    color: #f0ad4e !important;
+    background: transparent;
+}
+
+.nav-tabs>li>a::after {
+    content: "";
+    background: #f0ad4e;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.nav-tabs>li.active>a::after,
+.nav-tabs>li:hover>a::after {
+    transform: scale(1);
+}
+
+.tab-nav>li>a::after {
+    background: #f0ad4e none repeat scroll 0% 0%;
+    color: #fff;
+}
+
+.tab-pane {
+    padding: 15px 0;
+}
+
+.tab-content {
+    padding: 20px
+}
+
+.activity>li>a {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    font-size: 13px;
+}
+
+.img-card {
+    padding: 15px;
+}
+
+.bold {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.bold>a {
+    font-weight: normal;
+}
+
+.new-bold {
+    font-weight: 900;
+}
+
+.new-bold>span {
+    font-weight: normal;
+    color: #777;
+}
+
+.under-line {
+    color: #777;
+}
+
+.loc {
+    padding-right: 55%;
+    float: right;
+}
+
+.edu {
+    padding-right: 23%;
+    float: right;
+}
+
+.exp {
+    padding-right: 52%;
+    float: right;
+}
+
+.btn-lg {
+    margin-top: 5px;
+    padding: 6px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+
+/*
+@media screen and (min-width: 1440px)  {
+    
+}
+@media screen and (min-width: 1920px) {
+    
+}*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #imgCard img {
+        width: 185px;
+    }
+    .loc {
+        float: none;
+    }
+    .edu {
+        float: none;
+    }
+    .exp {
+        float: none;
+    }
+    .btn-lg {
+        margin-top: 5px;
+        padding: 6px 16px;
+        font-size: 12px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
+    h6 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .nav3 {
+        border-left: 1px solid #C8C6C6;
+        margin-right: 0%;
+    }
+    .one {
+        height: 70px;
+    }
+    .two {
+        margin-top: 15px;
+        white-space: nowrap;
+    }
+    .three {
+        margin-top: 15px;
+        padding-left: 15px;
+    }
+    .four {
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+    .five {
+        margin-top: 25px;
+        text-align: center;
+        padding-left: 15px;
+    }
+    .six {
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+    .glyp-card {
+        font-size: 25px;
+        color: #129C09;
+        top: 9px;
+    }
+    .hire_text {
+        color: black;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        margin: 0px 0px;
+        font-weight: bold;
+    }
+    .title {
+        font-size: 12px;
+        text-align: left;
+        font-weight: 400;
+        white-space: nowrap;
+        letter-spacing: 0px;
+    }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cards Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="card.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+            <ul class="nav navbar-nav nav1">
+                <li>
+                    <a href="#">Annotate</a>
+                    <a href="#" class="main">
+                       <span class="glyphicon glyphicon-tag glyp-nav" aria-hidden="true"></span>
+                       <span class="glyphicon glyphicon-file glyp-nav" aria-hidden="true"></span>
+                       <span class="glyphicon glyphicon-paperclip glyp-nav" aria-hidden="true"></span>
+                       <span class="glyphicon glyphicon-list glyp-nav" aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav nav2">
+                <li>
+                    <a href="#">Manage</a>
+                    <a href="#" class="main">
+                        <span class="glyphicon glyphicon-duplicate glyp-nav" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-folder-close glyp-nav" aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav3">
+                <li>
+                    <a href="#">Set Hiring Stage</a>
+                    <a href="#" class="main">
+                        <button type="button" class="btn btn-default dropdown-toggle" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shortlisted
+                        <span class="caret pull-right-modified"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                             <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+            </a>
+            </li>
+            </ul>
+            <!--</div> -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-8 col-sm-8">
+                <div class="card one">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 two">
+                            <span class="glyphicon glyphicon-record glyp-card" aria-hidden="true"></span>
+                            <span class="hire_text">Hired</span>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 three">
+                            <span class="title clr">Divison</span>
+                            <span class="title">Technology</span>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 four">
+                            <span class="title clr">Reporting to</span>
+                            <span class="title">Yousef Sawalha</span>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 six">
+                            <span class="title clr">Joining Date</span>
+                            <span class="title">25/09/2014</span>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 three">
+                            <span class="title clr">Offered Salary</span>
+                            <span class="title">740 JD</span>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 five">
+                            <span class="glyphicon glyphicon-pencil title clr clr-1" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card img-card" id="imgCard">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 col-sm-5">
+                            <img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/p/3/005/07f/214/1ac84e5.jpg">
+                        </div>
+                        <div class="col-lg-8 col-md-7 col-sm-7">
+                                <h4 class="bold">Noura <a href="#">(Reveal Full Name)</a></h4>
+                                <h5>Front End Engineer</h5>
+                                <a href="#" class="under-line">Infoart printing & advertising</a>
+                                <h6 class="new-bold">Location:  <span class="loc">Amman, Jordan</span></h6> 
+                                <h6 class="new-bold">Education: <span class="edu">Master's Degree,Computer Engineering</span></h6>
+                                <h6 class="new-bold">Experience:<span class="exp">3 years, 6 Months</span></h6>
+                                <button type="button" class="btn btn-warning btn-lg" id="flip-card">
+                                        <span class="glyphicon glyphicon-envelope"></span> Contact
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-4 col-sm-4">
+                <div class="card">
+                    <p class="activity_text">
+                        <span class="title-active">Activities On CV</span>
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <ul class="nav nav-tabs activity" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">All</a></li>
+                                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages (2)</a></li>
+                                <li role="presentation"><a href="#notes" aria-controls="notes" role="tab" data-toggle="tab">Notes (6)</a></li>
+                                <li role="presentation"><a href="#tags" aria-controls="tags" role="tab" data-toggle="tab">Tags (2)</a></li>
+                                <li role="presentation"><a href="#attatchments" aria-controls="attatchments" role="tab" data-toggle="tab">Attatchments (2)</a></li>
+                                <li role="presentation"><a href="#more" aria-controls="more" role="tab" data-toggle="tab">More <span class="caret"></span></a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="messages">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    text ever since the 1500s
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="notes">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tags">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    text ever since the 1500s
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="attatchments">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="more">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    text ever since the 1500s
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="card.js"></script>
+</body>
+
+</html>
